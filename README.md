@@ -5,7 +5,7 @@
 The Bus Booking System is a console-based Python application developed using Object-Oriented Programming (OOP) concepts.
 The system allows users to view available buses, book tickets, cancel bookings, and check passenger details while automatically managing seat availability.
 
- Objectives of the Project
+ **Objectives of the Project**
 
 To simulate a real-world bus reservation system
 
@@ -15,7 +15,7 @@ To manage bookings using in-memory data structures
 
 To ensure seat availability is updated dynamically
 
- Technologies Used
+ **Technologies Used**
 
 Programming Language: Python
 
@@ -31,7 +31,7 @@ Loops
 
 Functions
 
-🔹 System Design
+ **System Design**
 
 The system is built around a Bus class, where each bus is treated as an object with its own data and behavior.
 
@@ -49,8 +49,8 @@ available_seats – Seats currently available
 
 passenger_list – Stores passenger names and seats booked
 
-🔹 Functionalities Implemented
-1️⃣ View Available Buses
+ **Functionalities Implemented**
+1 View Available Buses
 
 Displays:
 
@@ -60,7 +60,7 @@ Route (source → destination)
 
 Available seats
 
-2️⃣ Ticket Booking
+2️ Ticket Booking
 
 User selects a bus
 
@@ -70,9 +70,9 @@ System checks seat availability
 
 Seats are deducted after successful booking
 
-✔ Prevents overbooking
+Prevents overbooking
 
-3️⃣ Ticket Cancellation
+3️ Ticket Cancellation
 
 User enters bus number and passenger name
 
@@ -80,17 +80,17 @@ Booking is removed
 
 Seats are restored to availability
 
-4️⃣ View Bookings
+4️ View Bookings
 
 Displays all passengers booked for a selected bus
 
 Shows number of seats booked per passenger
 
-5️⃣ Exit System
+5️ Exit System
 
 Terminates the program safely
 
-🔹 Data Handling
+ **Data Handling**
 
 Uses dictionary to store passenger bookings:
 
@@ -98,15 +98,15 @@ Uses dictionary to store passenger bookings:
 
 Uses list to store multiple bus objects
 
-🔹 Key Programming Concepts Demonstrated
+ **Key Programming Concepts Demonstrated**
 
-✔ Object-Oriented Programming
-✔ Real-time data updates
-✔ Menu-driven application
-✔ Error handling through condition checks
-✔ Code reusability using class methods
+ Object-Oriented Programming
+ Real-time data updates
+ Menu-driven application
+ Error handling through condition checks
+ Code reusability using class methods
 
-🔹 Limitations
+ **Limitations**
 
 Data is not stored permanently (lost after program exits)
 
@@ -114,7 +114,7 @@ No seat-number allocation
 
 No authentication or payment feature
 
-🔹 Future Enhancements
+ **Future Enhancements**
 
 Integrate database (MySQL / SQLite)
 
@@ -126,7 +126,7 @@ Build GUI using Tkinter
 
 Convert into web application using Flask or Django
 
-🔹 Conclusion
+ **Conclusion**
 
 This Bus Booking System demonstrates how Python can be used to design a simple yet effective reservation system using OOP principles.
 
